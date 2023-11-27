@@ -1,0 +1,55 @@
+ body {
+        margin: 5px;
+        padding: 0;
+        height: 100%;
+      }
+      
+      body{
+        min-height :100vh; 
+        background-color: blanchedalmond;
+      }
+
+
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+      }
+
+      header {
+        background-color: rgb(217, 240, 166);
+        padding: 10px;
+      }
+
+      main {
+        display: flex;
+        flex: 1;
+        height: 500px;
+        margin: 15px;
+      }
+
+      aside {
+        background-color: rgb(157, 209, 253);
+        flex: 1;
+        padding: 10px;
+      }
+
+      article {
+        background-color: rgb(230, 169, 244);
+        flex: 3;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px8;
+      }
+
+      img {
+        padding: 20px;
+        max-width: 25%;
+      }
+
+      footer {
+        background-color: rgb(171, 245, 220);
+        padding: 10px;
+      }
